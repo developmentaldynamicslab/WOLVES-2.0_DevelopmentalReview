@@ -9,10 +9,7 @@ color_shift=[10 0];
 nObjects = 6; %%total number of objects
 t_max = historyDuration; %specify simulation time  % scale with Experiment training trial Duration
 
-%% weakening word input as this is a novel word
-%wstrengthInstruct=15;
-wstrengthInstruct=6;
-
+wstrengthInstruct=15;
 sptStrength=15;
 
 colorPropertiesIndices=1:6;
@@ -495,8 +492,14 @@ parfor subject = 1:numSubjects % change to parfor for mode = 2
 
     %% DCCS_Preswitch
 
-    test_On=floor(500/scale_factor);    test_Off = floor(5500/scale_factor);
-    targets_On=floor(5750/scale_factor);    targets_Off=floor(6650/scale_factor);
+    % % original values
+    % test_On=floor(500/scale_factor);    test_Off = floor(5500/scale_factor);
+    % targets_On=floor(5750/scale_factor);    targets_Off=floor(6650/scale_factor);
+
+    % longer wait time since slower decision-making in this task...
+    test_On=floor(500/scale_factor); test_Off = floor(8500/scale_factor);
+    targets_On=floor(8750/scale_factor); targets_Off=floor(9650/scale_factor);
+
 
     maxTR=6;
     trList=[1 1 1 2 2 2];
@@ -858,8 +861,13 @@ parfor subject = 1:numSubjects % change to parfor for mode = 2
 
     %% DCCS_Postswitch
 
-    test_On=floor(500/scale_factor);    test_Off = floor(5500/scale_factor);
-    targets_On=floor(5750/scale_factor);    targets_Off=floor(6650/scale_factor);
+    % %original values
+    % test_On=floor(500/scale_factor);    test_Off = floor(5500/scale_factor);
+    % targets_On=floor(5750/scale_factor);    targets_Off=floor(6650/scale_factor);
+
+    % longer wait time since slower decision-making in this task...
+    test_On=floor(500/scale_factor); test_Off = floor(8500/scale_factor);
+    targets_On=floor(8750/scale_factor); targets_Off=floor(9650/scale_factor);
 
     maxTR=6;
     trList=[1 1 1 2 2 2];

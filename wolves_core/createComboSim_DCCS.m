@@ -1,7 +1,7 @@
 %% setting up the architecture (fields, interactions, and inputs)
 
 scale_factor = 8; % Each simulation timestep equals 8 real-time ms 
-if DCCS == 1 || DCCS == 4 || DCCS == 5 || DCCS == 6
+if DCCS == 1 || DCCS == 4 || DCCS == 6
     historyDuration = floor((7000)/scale_factor);%Simulation time training; + a gap of 1 sec between every two trials%
     historyDuration2 = floor((7000)/scale_factor); %Simulation time test trials + a gap of 1 sec between every two trials
 elseif DCCS == 2
@@ -10,6 +10,9 @@ elseif DCCS == 2
 elseif DCCS == 3
     historyDuration = floor((3500)/scale_factor);%Simulation time training; + a gap of 1 sec between every two trials%
     historyDuration2 = floor((3500)/scale_factor); %Simulation time test trials + a gap of 1 sec between every two trials
+elseif DCCS == 5
+    historyDuration = floor((10000)/scale_factor);%Simulation time training; + a gap of 1 sec between every two trials%
+    historyDuration2 = floor((10000)/scale_factor); %Simulation time test trials + a gap of 1 sec between every two trials
 else
     historyDuration = floor((4000+1000)/scale_factor);%Simulation time training; + a gap of 1 sec between every two trials%
     historyDuration2 = floor((8000+1000)/scale_factor); %Simulation time test trials + a gap of 1 sec between every two trials
