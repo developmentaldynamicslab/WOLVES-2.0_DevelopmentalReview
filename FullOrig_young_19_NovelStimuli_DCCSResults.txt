@@ -1,0 +1,10 @@
+Young Model NovelFeat
+Run completed on 2024/11/17 at 15:33 
+Passed Preswitch: 0.92 
+Failed Preswitch: 0.01 
+
+Passed Postswitch: 0.84 
+Failed Postswitch: 0.02 
+Mixed Postswitch: 0.14
+
+

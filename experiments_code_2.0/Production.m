@@ -27,6 +27,7 @@ if (mode == 1 ) % GUI initilaizations and looking history updation
 end
 hStore=sim.getElement('wf1').h;
 hStoreW=sim.getElement('word').h;
+clear respLocTmp;
 
 %% parfor loop -- use parfor for mode 2, use for for mode 1
 parfor subject = 1:numSubjects 

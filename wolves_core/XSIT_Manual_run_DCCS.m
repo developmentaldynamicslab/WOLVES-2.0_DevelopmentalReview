@@ -142,7 +142,7 @@ for agect = 1:2
             taskvar = tasknum; %choose the task/experiment (taskvar value) to simulate: default Smith & Yu (2008,11)
 
             %% create a name for your sims
-            simNamePar = strcat('FullYoungOrig288b_', age, '_',num2str(tasknum),'_'); % give a name to your simulation.
+            simNamePar = strcat('FullOrig2_', age, '_',num2str(tasknum),'_'); % give a name to your simulation.
 
             if (taskvar==1)
                 %% Task - Smith & Yu, Dev Sci, 2008 - Yu & Smith, Dev Sci, 2011 - Infants - standard cross-sit
@@ -344,7 +344,7 @@ for agect = 1:2
                     fprintf(outfile,sprintf('Old Model\n'))
                 end
                 fprintf(outfile,sprintf('Comprehension Accuracy: %0.02f\n\n',mean(mean(accuracy))));
-                
+
             end
 
         end

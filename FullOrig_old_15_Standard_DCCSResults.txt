@@ -1,0 +1,10 @@
+Old Model
+Run completed on 2024/11/17 at 16:9 
+Passed Preswitch: 1.00 
+Failed Preswitch: 0.00 
+
+Passed Postswitch: 0.91 
+Failed Postswitch: 0.03 
+Mixed Postswitch: 0.06
+
+

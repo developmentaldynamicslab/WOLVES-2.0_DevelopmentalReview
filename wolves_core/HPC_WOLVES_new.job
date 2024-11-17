@@ -11,5 +11,5 @@
 #set up environment
 module add matlab/2020a
 #run the application
-matlab -nodisplay -nosplash -singleCompThread -r XSIT_Manual_run_DCCS_ATBv2
+matlab -nodisplay -nosplash -singleCompThread -r XSIT_Manual_run_DCCS
   
