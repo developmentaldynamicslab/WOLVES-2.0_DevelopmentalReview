@@ -11,7 +11,7 @@ Measure = {}; Mean = {}; Standard_Error = {}; RMSE_val = [];  MAPE_val = [];
 T = table (Measure, Mean, Standard_Error, RMSE_val, MAPE_val);
 
 %% Raw Data File Name             
-simName = 'FULLOldWmcNoise288_old_1__Smith_Yu_2008_ATBresults'
+simName = 'FullOrig2_old_1__Smith_Yu_2008_results'
 xsit_result = load ([simName '.mat']); % loading the file
 numSubjects=size(xsit_result.test,1);xx=['Number of Subjects is ',num2str(numSubjects)]; disp(xx);% 
 %xsit_result.sim.saveSettings('tesw7.json'); %visdiff ('tesw2.json', 'tesw7.json')

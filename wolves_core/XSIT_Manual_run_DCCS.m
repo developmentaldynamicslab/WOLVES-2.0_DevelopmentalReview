@@ -31,7 +31,7 @@ notes = ['wolvesPaperPR.json'];% notes for experimenting simulations
 
 %% loop over ages for DCCS tasks
 for agect = 1:2
-% for agect = 2 %uncomment this line (and comment line above) to run orig XSit tasks below
+%for agect = 2 %uncomment this line (and comment line above) to run orig XSit tasks below
 
     if agect == 1
         youngDCCS=1;
@@ -44,7 +44,7 @@ for agect = 1:2
     end
 
     for DCCS = tasklist
-    % for DCCS = 0 %uncomment this line (and comment line above) to run orig XSit tasks below
+    %for DCCS = 0 %uncomment this line (and comment line above) to run orig XSit tasks below
 
         if DCCS==1 %original DCCS
             task=15;
@@ -137,7 +137,7 @@ for agect = 1:2
         end        
 
         for tasknum = task
-        % for tasknum = [1 3 8]  %uncomment this line (and comment line above to run orig XSit tasks 
+        %for tasknum = [1 3 8]  %uncomment this line (and comment line above to run orig XSit tasks 
 
             taskvar = tasknum; %choose the task/experiment (taskvar value) to simulate: default Smith & Yu (2008,11)
 

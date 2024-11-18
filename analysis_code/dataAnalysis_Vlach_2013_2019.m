@@ -12,7 +12,7 @@ Measure = {}; Mean = {}; Standard_Error = {}; RMSE_val = [];  MAPE_val = [];
 T = table (Measure, Mean, Standard_Error, RMSE_val, MAPE_val);
 
 %% Raw Data File Name             
-simName = 'FULLOldWmcNoise288_old_3__Vlach_Johnson_2013_ATBresults'
+simName = 'FullOrig2_old_3__Vlach_Johnson_2013_results'
 % loading the file
 xsit_result = load ([simName '.mat']); 
 numSubjects=size(xsit_result.test,1);xx=['Number of Subjects is ',num2str(numSubjects)]; disp(xx);% 

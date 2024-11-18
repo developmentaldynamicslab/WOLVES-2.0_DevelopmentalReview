@@ -1,0 +1,4 @@
+Measure,Mean,Standard_Error,RMSE_val,MAPE_val
+Proportion looking to target at test vs Vlach & Johnson 2013 (16 m),0.77955     0.84087,0.016547    0.014049,0.30242321467751,58.4587079714439
+Proportion looking to target at test vs Vlach & Johnson 2013 (20 m),0.77955     0.84087,0.016547    0.014049,0.266447926574812,48.6232022249901
+Proportion looking to target at test vs Vlach & Johnson 2019 (47-58 m),0.76562     0.82639,0.017024    0.014996,0.157889678444836,24.8972193704746

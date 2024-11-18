@@ -1,0 +1,3 @@
+Measure,Mean,Standard_Error,RMSE_val,MAPE_val
+Mean proportion correct looking at test,0.70312     0.67969     0.64844,0.027353    0.027461    0.032455,0.276186715036223,70.4933776395173
+Proportion of subjects looking preferentially to target at test,0.875      0.8125     0.65625,0.04        0.04        0.04,0.112761270685757,16.5561868686869

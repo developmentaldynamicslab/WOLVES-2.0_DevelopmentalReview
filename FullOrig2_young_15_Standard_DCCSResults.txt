@@ -1,0 +1,10 @@
+Young Model Standard
+Run completed on 2024/11/17 at 19:50 
+Passed Preswitch: 0.95 
+Failed Preswitch: 0.01 
+
+Passed Postswitch: 0.08 
+Failed Postswitch: 0.86 
+Mixed Postswitch: 0.07
+
+

@@ -1,0 +1,9 @@
+Measure,Mean,Standard_Error,RMSE_val,MAPE_val
+Mean looking time per 8s test trial,5.7236,0.0051192,0.300184344403568,4.74361361874169
+Preferential looking time ratio (at test),0.56449,0.0035363,0.0305013035621921,5.22678496060342
+Mean words learnt at test (out of 6),4.9062,0.097195,1.18296832692173,31.4174107142857
+Mean looking time to target per test trial,3.2269,0.023371,0.264303811592892,5.53643459164291
+Mean looking time to distractor per test trial,2.4967,0.021557,0.122567822620683,3.3115334997919
+Mean looking time per 4s training trial,2.7183,0.0023423,0.305174999999999,10.0934347610385
+number of fixations(looks) per training trial,3.7042,0.0090259,0.601066666666667,19.3698774343936
+Mean fixation (longest look) duration,0.95273,0.0024483,0.578866666666667,37.7948985810046

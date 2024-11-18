@@ -8,7 +8,7 @@ scale_factor=8; nFeatures=2;
 Measure = {}; Mean = {}; Standard_Error = {}; RMSE_val = [];  MAPE_val = [];
 T = table (Measure, Mean, Standard_Error, RMSE_val, MAPE_val);
 %% Raw Data File Name 
-simName = 'FULLOldWmcNoise288_old_8__Suanda_Mugwanya_Namy_2014_ATBresults'
+simName = 'FullOrig2_old_8__Suanda_Mugwanya_Namy_2014_results'
 % loading the file
 xsit_result = load ([simName '.mat']);
 

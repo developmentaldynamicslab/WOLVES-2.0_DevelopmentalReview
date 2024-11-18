@@ -1,0 +1,4 @@
+Run completed on 2024/11/17 at 22:1 
+Old Model
+Comprehension Accuracy: 0.98
+
