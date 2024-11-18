@@ -1,3 +1,5 @@
+sprintf('running uninformative version')
+
 wmc_boost=0;
 
 nObjects = 6; %%total number of objects
@@ -45,7 +47,7 @@ ior_atn=sim.getElement('ior_s -> atn_sa').amplitude;
 maxTRall = 15; %total trials over phases
 
 %% parfor loop -- use parfor for mode 2, use for for mode 1
-parfor subject = 1:numSubjects % change to parfor for mode = 2
+for subject = 1:numSubjects % change to parfor for mode = 2
 
     testList=[80 190;
         230 40];

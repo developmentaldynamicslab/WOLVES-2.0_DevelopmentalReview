@@ -1,4 +1,5 @@
 sprintf('running novel stim version')
+
 wmc_boost=0; 
 
 %use second line if you want to include novel features for the preswitch
@@ -52,7 +53,7 @@ ior_atn=sim.getElement('ior_s -> atn_sa').amplitude;
 maxTRall = 15; %total trials over phases
 
 %% parfor loop -- use parfor for mode 2, use for for mode 1
-parfor subject = 1:numSubjects % change to parfor for mode = 2
+for subject = 1:numSubjects % change to parfor for mode = 2
 
     testList=[80 190;
         230 40];

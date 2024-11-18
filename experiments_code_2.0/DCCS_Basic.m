@@ -1,3 +1,4 @@
+sprintf('running standard DCCS version')
 wmc_boost=0;
 
 nObjects = 6; %%total number of objects
@@ -44,7 +45,7 @@ ior_atn=sim.getElement('ior_s -> atn_sa').amplitude;
 maxTRall = 15; %total trials over phases
 
 %% parfor loop -- use parfor for mode 2, use for for mode 1
-parfor subject = 1:numSubjects 
+for subject = 1:numSubjects 
 
     sim2 = 5;
     if (mode == 1 )

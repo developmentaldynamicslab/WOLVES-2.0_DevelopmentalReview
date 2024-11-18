@@ -14,7 +14,7 @@ if 0 % choose for hpc at Tennessee...
     parpool('Processes',48);
 
 end
-if 1 % choose for hpc at UEA...
+if 0 % choose for hpc at UEA...
     run('../../../cosivina/setpath.m') % add cosivina and jsoblab files to the matlab path
     addpath('../../../jsonlab');
     addpath('../experiments_code');
@@ -24,7 +24,7 @@ if 1 % choose for hpc at UEA...
     parpool('SlurmProfile1',96)
 end
 
-mode=2; %1 = auto/gui, 0 = single batch; 2 for multicore batch mode (also need to switch to 'parfor' in the experiment file)
+mode=1; %1 = auto/gui, 0 = single batch; 2 for multicore batch mode (also need to switch to 'parfor' in the experiment file)
 gui_speed=10; %10; %update gui after every n iterations: ideal values from 1 to 20.
 notes = ['wolvesPaperPR.json'];% notes for experimenting simulations
 

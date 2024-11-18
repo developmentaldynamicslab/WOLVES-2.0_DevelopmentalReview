@@ -1,3 +1,5 @@
+sprintf('running comprehension task')
+
 nObjects = 6; %%total number of objects--for us this is the number of features
 arraySize=6; %%number of items to show on a trial
 maxTR = 12; % total # of training trials
@@ -29,7 +31,7 @@ hStore=sim.getElement('wf1').h;
 hStoreW=sim.getElement('word').h;
 
 %% parfor loop -- use parfor for mode 2, use for for mode 1
-parfor subject = 1:numSubjects 
+for subject = 1:numSubjects 
 
     wordListtmp=repmat(1:6,1,maxTR/nObjects);
     wordList{subject}=wordListtmp(randperm(numel(wordListtmp)));

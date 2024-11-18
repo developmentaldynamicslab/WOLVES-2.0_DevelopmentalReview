@@ -1,8 +1,8 @@
+sprintf('running production task')
+
 nObjects = 6; %%total number of objects
 maxTR = 24; % total # of training trials
 t_max = historyDuration;%floor((4000)/scale_factor); %specify simulation time  % scale with Experiment training trial Duration
-
-sprintf('running production task file')
 
 colorPropertiesIndices=1:6;
 colorLabelIndices=[3 4 5 6 7 8];%
@@ -30,7 +30,7 @@ hStoreW=sim.getElement('word').h;
 clear respLocTmp;
 
 %% parfor loop -- use parfor for mode 2, use for for mode 1
-parfor subject = 1:numSubjects 
+for subject = 1:numSubjects 
 
     f1=repmat(1:nObjects,1,maxTR/nObjects);
     f2=repmat(1:nObjects,1,maxTR/nObjects);
